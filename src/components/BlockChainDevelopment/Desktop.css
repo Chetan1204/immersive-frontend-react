@@ -1308,7 +1308,7 @@
   }
 
   .cta-image {
-    background-image: url('assets/images/Blockchain/blockchain-4-banner.webp');
+    background-image: url('/assets/images/Blockchain/blockchain-4-banner.webp');
     background-size: cover;
     background-position: center;
     height: 100%;
