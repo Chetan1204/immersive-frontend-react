@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 
-const Blockforai: React.FC = () => {
+const Blockchainartificialintelligence: React.FC = () => {
   return (
     <section className="blockchain-ai">
       <div className="blockchain-ai-content">
@@ -47,4 +47,4 @@ const Blockforai: React.FC = () => {
   );
 };
 
-export default Blockforai;
+export default Blockchainartificialintelligence;

@@ -12,7 +12,8 @@ import Tech from "./Tech";
 import DevelopmentProcess from "./DevelopmentProcess";
 import Blockchainfaq from "./Blockchainfaq";
 import BlogInsight from "../../pages/Home/BlogInsight";
-import Blockforai from "./BlockChainAi";
+import Blockchainartificialintelligence from "./Blockchainartificialintelligence";
+
 
 
 const Banner = () => {
@@ -167,7 +168,7 @@ const handleScroll = () => {
     <SuccessStories/>
     <DevelopmentBlock/>
     <Tech/>
-    <Blockforai />
+<Blockchainartificialintelligence />
     <DevelopmentProcess />
     <Blockchainfaq/>
     <BlogInsight/>
