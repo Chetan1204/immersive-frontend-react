@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32.64" height="32.64" viewBox="0 0 32.64 32.64">
+  <g id="Group_105592" data-name="Group 105592" transform="translate(-8113.843 -12433.698)">
+    <g id="Group_104304" data-name="Group 104304" transform="translate(8113.843 12433.698)">
+      <g id="Group_104303" data-name="Group 104303">
+        <rect id="Rectangle_44279" data-name="Rectangle 44279" width="2.885" height="9.727" transform="translate(0 11.332)"/>
+        <rect id="Rectangle_44280" data-name="Rectangle 44280" width="9.727" height="2.885" transform="translate(11.554)"/>
+        <path id="Path_74914" data-name="Path 74914" d="M183.2,2.885h5.836V8.7h2.885V0H183.2Z" transform="translate(-159.282)"/>
+        <rect id="Rectangle_44281" data-name="Rectangle 44281" width="9.727" height="2.885" transform="translate(11.554 29.754)"/>
+        <path id="Path_74915" data-name="Path 74915" d="M189.036,181.5v6.058H183.2v2.885h8.721V181.5Z" transform="translate(-159.282 -157.804)"/>
+        <rect id="Rectangle_44282" data-name="Rectangle 44282" width="2.885" height="9.727" transform="translate(29.754 11.332)"/>
+        <path id="Path_74916" data-name="Path 74916" d="M8.917,187.558H2.885V181.5H0v8.943H8.917Z" transform="translate(0 -157.804)"/>
+        <path id="Path_74917" data-name="Path 74917" d="M2.885,8.7V2.885H8.917V0H0V8.7Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
