@@ -1,0 +1,78 @@
+@media (min-width: 320px) and (max-width: 768px){
+  
+  .uxd-section {
+    padding: 40px 15px;
+
+    .uxd-header {
+      h2 {
+        font-size: 22px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+
+    .uxd-cards {
+      flex-direction: column;
+      align-items: center;
+
+      .uxd-card {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+
+  .container {
+      flex-direction: column;
+      text-align: center;
+
+      .left {
+        h2 {
+          font-size: 28px;
+        }
+
+        .cta-btn {
+          width: 100%;
+          max-width: 320px;
+          margin: 0 auto;
+          display: block;
+        }
+      }
+
+      .right {
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+
+
+
+    .design-workshop {
+    & .container {
+        & .left {
+            h2 {
+                font-size: 22px;
+               
+            }
+                        .cta-btn {
+               
+                font-size: 12px;
+               
+            }
+        }
+    }
+}
+
+
+.brands-awards {
+    .section-title {
+        font-size: 22px !important;
+        font-weight: 600;
+        margin: -20px 0 30px;
+    }
+}
+  
+}
+
