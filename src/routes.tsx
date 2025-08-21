@@ -15,6 +15,7 @@ import BlogDetailPage from "./pages/blog/BlogDetailPage";
 import MobileAppDevelopmentServices from "./components/MobileAppDevelopmentServices/BannerSection";
 import WebAppDevelopmentServices from "./components/WebAppDevelopmentServices/Banner";
 import BlogChainDevelopment from "./components/BlockChainDevelopment/Banner";
+import UIDevelopment from "./components/UIDevelopment/UIBanner";
 
 const AppRoutes = () => {
     
@@ -37,6 +38,7 @@ const AppRoutes = () => {
         <Route path="/mobile-app-development" element={<MobileAppDevelopmentServices />} />
         <Route path="/web-app-development" element={<WebAppDevelopmentServices />} />
         <Route path="/blockchain-development" element={<BlogChainDevelopment />} />
+         <Route path="/ui-development" element={<UIDevelopment />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>
