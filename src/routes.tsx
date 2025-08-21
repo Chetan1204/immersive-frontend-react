@@ -38,7 +38,7 @@ const AppRoutes = () => {
         <Route path="/mobile-app-development" element={<MobileAppDevelopmentServices />} />
         <Route path="/web-app-development" element={<WebAppDevelopmentServices />} />
         <Route path="/blockchain-development" element={<BlogChainDevelopment />} />
-         <Route path="/ui-development" element={<UIDevelopment />} />
+         <Route path="/ui-ux-development" element={<UIDevelopment />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>
