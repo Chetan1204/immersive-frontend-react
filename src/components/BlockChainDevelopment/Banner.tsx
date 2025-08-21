@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import "./Desktop.css";
+import "./Mobile.css";
 
 import AIServices from "./AIServices";
 import Counter from "./Counter";
