@@ -396,7 +396,7 @@
 
 
 
-.Description {
+.why-choose {
   background-color: #000;
   color: #fff;
   padding: 4rem 2rem;
@@ -1308,7 +1308,6 @@
   }
 
   .cta-image {
-    
     background-image: url('/assets/images/Blockchain/blockchain-4-banner.webp');
     background-size: cover;
     background-position: center;

@@ -1,0 +1,141 @@
+@media (min-width: 320px) and (max-width: 768px) {
+.solutions-section {
+
+.solutions-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: -2px;
+}
+
+.solutions-description {
+        font-size: 14px;
+        color: #ccc;
+        max-width: 900px;
+        margin: 0 auto 40px auto;
+        line-height: 1.6;
+}
+
+}
+
+.why-choose{
+    .title{
+        font-size: 22px !important;
+    }
+}
+
+
+.success-stories {
+    & .story-card {
+        & .story-content {
+            h3 {
+                font-size: 26px;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+
+.development-expertise-block {
+    .section-title {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+}
+
+
+.engineering-web-box {
+    h6 {
+         font-size: 16px !important;
+        
+    }
+}
+
+.digital-transformation {
+        h1 {
+            font-size: 22px;
+        }
+    }
+
+
+    .blockchain-ai {
+   
+        & .blockchain-ai-content {
+            h2 {
+                font-size: 16px;
+            }
+        
+    }
+}
+
+
+ .engineering-excellence {
+    .industry-main-section {
+      flex-direction: column; /* stack layout */
+
+      .industry-best {
+        padding-top: 40px;
+        .best-text {
+          font-size: 22px !important;
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 15px !important;
+          line-height: 1.5;
+          margin-top: -28px;
+        }
+      }
+
+      .tech_card_panel {
+        padding-top: 5px !important;
+        .faq-item {
+          padding: 12px 0;
+          h4 {
+            font-size: 16px;
+          }
+          .faq-body p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .blockchain-cta {
+      text-align: center;
+      padding: 40px 20px;
+
+      h2.cta-title {
+        font-size: 16px !important;
+        margin-bottom: 15px;
+      }
+      .common__btn {
+        margin-top: 20px;
+
+                    .btn-effect {
+                font-size: 11px !important;
+                padding: 10px 22px;
+            }
+      }
+
+      .cta-image {
+
+        margin-top: 22px !important;
+    }
+    }
+  }
+
+
+  .blockchain-cta {
+   
+        .cta-image {
+            min-height: 200px;
+            margin-top: 22px !important;
+
+    }
+}
+
+
+
+}

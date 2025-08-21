@@ -44,7 +44,7 @@ const features = [
 
 const Description: React.FC = () => {
   return (
-    <section className="Description">
+    <section className="why-choose">
       <div className="container">
         <h2 className="title">
           Why Choose Immersive as Your Custom Blockchain App Development Company?
