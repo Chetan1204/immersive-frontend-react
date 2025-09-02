@@ -16,6 +16,7 @@ import MobileAppDevelopmentServices from "./components/MobileAppDevelopmentServi
 import WebAppDevelopmentServices from "./components/WebAppDevelopmentServices/Banner";
 import BlogChainDevelopment from "./components/BlockChainDevelopment/Banner";
 import UIDevelopment from "./components/UIDevelopment/UIBanner";
+import EDevelopment from "./components/E-CommerceDevelopment/EBanner";
 
 const AppRoutes = () => {
     
@@ -39,6 +40,7 @@ const AppRoutes = () => {
         <Route path="/web-app-development" element={<WebAppDevelopmentServices />} />
         <Route path="/blockchain-development" element={<BlogChainDevelopment />} />
          <Route path="/ui-ux-development" element={<UIDevelopment />} />
+           <Route path="/ecommerce-development" element={<EDevelopment />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>
