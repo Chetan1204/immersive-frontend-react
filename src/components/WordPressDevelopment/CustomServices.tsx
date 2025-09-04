@@ -1,0 +1,167 @@
+import React, { useRef, useEffect, useState } from "react";
+import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
+import "./Mobile.css";
+
+interface CompanySliderItem {
+  id: string;
+  heading: string;
+  CompanyDetails: string;
+  img: string;
+}
+
+const companySlider1: CompanySliderItem[] = [
+  {
+    id: "01",
+    heading: "Word Press Consulting",
+    CompanyDetails:
+      "Our WordPress consulting services help you choose the right themes, plugins, and development approach tailored to your business goals. From planning to deployment, we guide you in building a scalable and future-ready WordPress solution.",
+    img: "assets/images/mobiledevelopmentservices/web-apps-dev-icon.svg",
+  },
+  {
+    id: "02",
+    heading: " Custom Word Press Development",
+    CompanyDetails:
+      "With our custom WordPress development services, we design and develop bespoke themes, plugins, and functionalities that align perfectly with your brand and business requirements, ensuring a fully tailored website experience.",
+    img: "assets/images/mobiledevelopmentservices/custom-web-application-development-icon.svg",
+  },
+  {
+    id: "03",
+    heading: " Open Source Word Press Development and Revamp",
+    CompanyDetails:
+      "Leverage the power of WordPress open-source technology to revamp or build your website. We modernize outdated sites, improve performance, and deliver user-friendly, SEO-optimized WordPress solutions with cost-effective scalability.",
+    img: "assets/images/mobiledevelopmentservices/open-source-web-development-and-revamp-icon.svg",
+  },
+  {
+    id: "04",
+    heading: " Progressive Word Press Apps Development",
+    CompanyDetails:
+      "Enhance your online presence with advanced WordPress-powered solutions, including WooCommerce stores and custom integrations. We build fast, reliable, and engaging websites with modern capabilities like responsive design and seamless user experiences.",
+    img: "assets/images/mobiledevelopmentservices/progressive-web-application-icon.svg",
+  },
+  {
+    id: "05",
+    heading: "Word Press Application Support and Maintenance",
+    CompanyDetails:
+      "Our WordPress support and maintenance services keep your website secure, updated, and running smoothly. From bug fixes and plugin updates to security monitoring and performance optimization, we ensure your site stays reliable 24/7.",
+    img: "assets/images/mobiledevelopmentservices/web-application-support-and-maintenance-icon.svg",
+  },
+];
+
+
+const CustomServices: React.FC = () => {
+  const sliderRef = useRef<HTMLDivElement>(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const cardWidth = 320; // width + gap
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+
+  // Duplicate array for infinite effect
+  const sliderItems = [...companySlider1, ...companySlider1];
+
+  const scrollToIndex = (index: number, behavior: ScrollBehavior = "smooth") => {
+    if (!sliderRef.current) return;
+    sliderRef.current.scrollTo({
+      left: index * cardWidth,
+      behavior,
+    });
+    setActiveIndex(index % companySlider1.length);
+  };
+
+  // Always go forward
+  const scrollForward = () => {
+    scrollToIndex(activeIndex + 1);
+  };
+
+  // Auto forward loop
+  useEffect(() => {
+    if (!isAutoPlaying) return;
+    const interval = setInterval(() => {
+      scrollForward();
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [activeIndex, isAutoPlaying]);
+
+  // Handle scroll position to loop back
+  useEffect(() => {
+    const slider = sliderRef.current;
+    if (!slider) return;
+
+    const handleScroll = () => {
+      const index = Math.round(slider.scrollLeft / cardWidth);
+
+      // If we reach second set, jump back to same index in first set instantly
+      if (index >= companySlider1.length) {
+        slider.scrollTo({
+          left: (index - companySlider1.length) * cardWidth,
+          behavior: "auto",
+        });
+      }
+
+      setActiveIndex(index % companySlider1.length);
+    };
+
+    slider.addEventListener("scroll", handleScroll);
+    return () => slider.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleMouseEnter = () => setIsAutoPlaying(false);
+  const handleMouseLeave = () => setIsAutoPlaying(true);
+
+  return (
+    <section className="custom-approach">
+      <div className="container">
+        <div className="text-block">
+          <h1 className="cta_hd"> Employ End-to-End Custom Word <br /> Press Development Services</h1>
+          <h5 className="app__subhead">
+            As a trusted WordPress development company, we specialize in creating powerful, scalable, and fully customized WordPress solutions.
+            <br />
+            Our skilled developers delve deep into your unique business challenges to deliver perfectly tailored solutions that
+            <br />
+            Our skilled developers delve deep into your unique business challenges to deliver perfectly tailored solutions that
+            <br />
+               a dynamic web presence that drives success.
+          </h5>
+        </div>
+
+        <div className="slider-header">
+          <span className="scroll-count">
+            {(activeIndex + 1).toString().padStart(2, "0")} —{" "}
+            {companySlider1.length.toString().padStart(2, "0")}
+          </span>
+          <div className="arrow-buttons">
+            <button onClick={scrollForward} className="slider-arrow">
+              <FiChevronLeft size={22} />
+            </button>
+            <button onClick={scrollForward} className="slider-arrow">
+              <FiChevronRight size={22} />
+            </button>
+          </div>
+        </div>
+
+        <div
+          className="card-wrapper"
+          ref={sliderRef}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          {sliderItems.map((item, index) => (
+            <div
+              className={`custom-approach-box ${
+                index % companySlider1.length === activeIndex ? "highlight" : ""
+              }`}
+              key={`${item.id}-${index}`}
+              onClick={() => scrollToIndex(index)}
+            >
+              <div className="approach-icon">
+                <img src={item.img} alt={item.heading} />
+              </div>
+              <h3 className="heading4">{item.heading}</h3>
+              <p className="para">{item.CompanyDetails}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default CustomServices;

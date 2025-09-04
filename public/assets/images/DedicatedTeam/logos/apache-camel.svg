@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47.13" height="47" viewBox="0 0 47.13 47">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.126" y1="1.082" x2="1.013" y2="-0.02" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f69923"/>
+      <stop offset="0.11" stop-color="#f79a23"/>
+      <stop offset="0.945" stop-color="#e97826"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.126" y1="1.082" x2="1.013" y2="-0.02" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f69923"/>
+      <stop offset="0.08" stop-color="#f79a23"/>
+      <stop offset="0.419" stop-color="#e97826"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.747" y1="-0.031" x2="0.067" y2="1.001" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6e423"/>
+      <stop offset="0.412" stop-color="#f79a23"/>
+      <stop offset="0.733" stop-color="#e97826"/>
+    </linearGradient>
+  </defs>
+  <g id="apache-camel-seeklogo.com" transform="translate(0.706)">
+    <circle id="Ellipse_23" data-name="Ellipse 23" cx="22.602" cy="22.602" r="22.602" transform="translate(0.32 0.896)" fill="url(#linear-gradient)"/>
+    <path id="Path_18172" data-name="Path 18172" d="M23.5,47A23.5,23.5,0,1,1,47,23.5,23.5,23.5,0,0,1,23.5,47Zm0-1.793A21.707,21.707,0,1,0,1.793,23.5,21.707,21.707,0,0,0,23.5,45.207Z" transform="translate(-0.577)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_18173" data-name="Path 18173" d="M87.192,75.517c-.321,0-.647,0-.972.011a5.5,5.5,0,0,0-1.469.328,25.851,25.851,0,0,1,7.321,32.774c.207.005.413.023.621.023a23.491,23.491,0,0,0,22.877-18.189C108.5,82.169,98.9,75.535,87.192,75.517Z" transform="translate(-69.769 -61.652)" opacity="0.75" fill="url(#linear-gradient-3)"/>
+    <path id="Path_18174" data-name="Path 18174" d="M15.624,77.368c-3.278,1.1-9.533,4.99-15.545,10.179a23.5,23.5,0,0,0,22.866,22.6,25.851,25.851,0,0,0-7.321-32.774Z" transform="translate(-0.641 -63.163)" fill="#28170b" opacity="0.75"/>
+    <path id="Path_18175" data-name="Path 18175" d="M23.061,53.593c-2.017,1.009,0,5.043,0,5.043C17.007,63.681,18.293,72.3,11.231,72.3c-3.85,0-7.755-4.42-11.793-7.129-.052.639-.144,1.28-.144,1.932A23.494,23.494,0,0,0,11.3,87.647a13.827,13.827,0,0,0,5.7-1.761C24.926,80.605,26.893,70.558,30.13,65.7c2.016-3.028,11.462-2.765,12.1-4.041,1.01-2.018-2.018-5.043-3.028-5.043h-8.07c-.564,0-1.45-1-2.015-1H26.089s-1.342-2.035-2.532-2.116A.933.933,0,0,0,23.061,53.593Z" transform="translate(0 -43.678)" fill="#fff"/>
+  </g>
+</svg>

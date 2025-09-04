@@ -1,0 +1,17 @@
+<svg id="scala-seeklogo.com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.281" height="52.457" viewBox="0 0 32.281 52.457">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4f4f4f"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c40000"/>
+      <stop offset="1" stop-color="red"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_17871" data-name="Path 17871" d="M0-315.965v4.035c0,.68,14.675,1.819,24.236,4.035h0c4.619-1.071,8.045-2.392,8.045-4.035h0v-4.035c0-1.642-3.426-2.964-8.045-4.035h0C14.675-317.784,0-316.645,0-315.965" transform="translate(0 348.246)" fill="url(#linear-gradient)"/>
+  <path id="Path_17872" data-name="Path 17872" d="M0-187.965v4.035c0,.68,14.675,1.819,24.236,4.035h0c4.619-1.071,8.045-2.392,8.045-4.035h0v-4.035c0-1.642-3.426-2.964-8.045-4.035h0C14.675-189.784,0-188.645,0-187.965" transform="translate(0 204.105)" fill="url(#linear-gradient)"/>
+  <path id="Path_17873" data-name="Path 17873" d="M0-279.93v12.105c0-1.009,32.281-3.026,32.281-8.07h0V-288c0,5.044-32.281,7.061-32.281,8.07" transform="translate(0 304.14)" fill="url(#linear-gradient-3)"/>
+  <path id="Path_17874" data-name="Path 17874" d="M0-151.93v12.105c0-1.009,32.281-3.026,32.281-8.07h0V-160c0,5.044-32.281,7.061-32.281,8.07" transform="translate(0 160)" fill="url(#linear-gradient-3)"/>
+  <path id="Path_17875" data-name="Path 17875" d="M0-407.93v12.105c0-1.009,32.281-3.026,32.281-8.07h0V-416c0,5.044-32.281,7.061-32.281,8.07" transform="translate(0 448.281)" fill="url(#linear-gradient-3)"/>
+</svg>
