@@ -17,7 +17,12 @@ import WebAppDevelopmentServices from "./components/WebAppDevelopmentServices/Ba
 import BlogChainDevelopment from "./components/BlockChainDevelopment/Banner";
 import UIDevelopment from "./components/UIDevelopment/UIBanner";
 import EDevelopment from "./components/E-CommerceDevelopment/EBanner";
-
+import Banner from "./components/DedicatedTeam/Banner";
+import DigitalBanner from "./components/DigitalMarketing/DigitalBanner";
+import WordPressBanner from "./components/WordPressDevelopment/WordPressBanner";
+import QualityBanner from "./components/QualityAssurance/QualityBanner";
+import FullStackBanner from "./components/FullStackDevelopment/FullStackBanner";
+import StaffAugmentationBanner from "./components/StaffAugmentation/StaffAugmentationBanner";
 const AppRoutes = () => {
     
   return (
@@ -41,7 +46,12 @@ const AppRoutes = () => {
         <Route path="/blockchain-development" element={<BlogChainDevelopment />} />
          <Route path="/ui-ux-development" element={<UIDevelopment />} />
            <Route path="/ecommerce-development" element={<EDevelopment />} />
-
+           <Route path="/hire-dedicated-developers" element={<Banner />} />
+           <Route path="/digital-marketing" element={<DigitalBanner />} />
+          <Route path="/wordpress-development" element={<WordPressBanner />} />
+          <Route path="/quality-assurance-testing" element={<QualityBanner />} />
+          <Route path="/full-stack-development" element={<FullStackBanner />} />
+          <Route path="/staff-augmentation" element={<StaffAugmentationBanner />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 
