@@ -29,6 +29,7 @@ const AppRoutes = () => {
     <>
 
     <Router>
+      
       <Navbar />
       <ScrollToTop />
       <Routes>
